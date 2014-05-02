@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA39CBDB191158CD00809E90 /* RGSFindBarAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = AA39CBDA191158CD00809E90 /* RGSFindBarAgent.m */; };
+		AA5E1A401912999E00152D39 /* RGSRegexModeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E1A3F1912999E00152D39 /* RGSRegexModeButton.m */; };
+		AAAD88A91910D1790034E8AB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAD88A81910D1790034E8AB /* AppKit.framework */; };
+		AAAD88AB1910D1790034E8AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAD88AA1910D1790034E8AB /* Foundation.framework */; };
+		AAAD88B11910D1790034E8AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAAD88AF1910D1790034E8AB /* InfoPlist.strings */; };
+		AAAD88B41910D1790034E8AB /* RGSRegexSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAD88B31910D1790034E8AB /* RGSRegexSwitch.m */; };
+		AAD7A9561912B26B00A38B39 /* regex_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD7A9541912B26B00A38B39 /* regex_off.png */; };
+		AAD7A9571912B26B00A38B39 /* regex_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD7A9551912B26B00A38B39 /* regex_on.png */; };
+		AAE42FCC1912BE48006CF80F /* RGSFindNavigatorAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE42FCB1912BE48006CF80F /* RGSFindNavigatorAgent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA39CBD9191158CD00809E90 /* RGSFindBarAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSFindBarAgent.h; sourceTree = "<group>"; };
+		AA39CBDA191158CD00809E90 /* RGSFindBarAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSFindBarAgent.m; sourceTree = "<group>"; };
+		AA5E1A3E1912999E00152D39 /* RGSRegexModeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSRegexModeButton.h; sourceTree = "<group>"; };
+		AA5E1A3F1912999E00152D39 /* RGSRegexModeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSRegexModeButton.m; sourceTree = "<group>"; };
+		AA9D5C2C1912667B0030F957 /* KZRMethodSwizzlingWithBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZRMethodSwizzlingWithBlock.h; sourceTree = "<group>"; };
+		AAAD88A51910D1790034E8AB /* RegexSwitch.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegexSwitch.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAD88A81910D1790034E8AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAAD88AA1910D1790034E8AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAAD88AE1910D1790034E8AB /* RegexSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegexSwitch-Info.plist"; sourceTree = "<group>"; };
+		AAAD88B01910D1790034E8AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAAD88B21910D1790034E8AB /* RGSRegexSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGSRegexSwitch.h; sourceTree = "<group>"; };
+		AAAD88B31910D1790034E8AB /* RGSRegexSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGSRegexSwitch.m; sourceTree = "<group>"; };
+		AAAD88B51910D1790034E8AB /* RegexSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegexSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		AAD7A9541912B26B00A38B39 /* regex_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regex_off.png; sourceTree = "<group>"; };
+		AAD7A9551912B26B00A38B39 /* regex_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regex_on.png; sourceTree = "<group>"; };
+		AAE42FCA1912BE48006CF80F /* RGSFindNavigatorAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSFindNavigatorAgent.h; sourceTree = "<group>"; };
+		AAE42FCB1912BE48006CF80F /* RGSFindNavigatorAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSFindNavigatorAgent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAD88A21910D1790034E8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAD88A91910D1790034E8AB /* AppKit.framework in Frameworks */,
+				AAAD88AB1910D1790034E8AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAD889C1910D1790034E8AB = {
+			isa = PBXGroup;
+			children = (
+				AAAD88AC1910D1790034E8AB /* RegexSwitch */,
+				AAAD88A71910D1790034E8AB /* Frameworks */,
+				AAAD88A61910D1790034E8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAD88A61910D1790034E8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD88A51910D1790034E8AB /* RegexSwitch.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAD88A71910D1790034E8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD88A81910D1790034E8AB /* AppKit.framework */,
+				AAAD88AA1910D1790034E8AB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAAD88AC1910D1790034E8AB /* RegexSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD88B21910D1790034E8AB /* RGSRegexSwitch.h */,
+				AAAD88B31910D1790034E8AB /* RGSRegexSwitch.m */,
+				AA39CBD9191158CD00809E90 /* RGSFindBarAgent.h */,
+				AA39CBDA191158CD00809E90 /* RGSFindBarAgent.m */,
+				AAE42FCA1912BE48006CF80F /* RGSFindNavigatorAgent.h */,
+				AAE42FCB1912BE48006CF80F /* RGSFindNavigatorAgent.m */,
+				AA5E1A3E1912999E00152D39 /* RGSRegexModeButton.h */,
+				AA5E1A3F1912999E00152D39 /* RGSRegexModeButton.m */,
+				AAD7A9531912B26B00A38B39 /* Resources */,
+				AAAD88AD1910D1790034E8AB /* Supporting Files */,
+			);
+			path = RegexSwitch;
+			sourceTree = "<group>";
+		};
+		AAAD88AD1910D1790034E8AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D5C2C1912667B0030F957 /* KZRMethodSwizzlingWithBlock.h */,
+				AAAD88AE1910D1790034E8AB /* RegexSwitch-Info.plist */,
+				AAAD88AF1910D1790034E8AB /* InfoPlist.strings */,
+				AAAD88B51910D1790034E8AB /* RegexSwitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD7A9531912B26B00A38B39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7A9541912B26B00A38B39 /* regex_off.png */,
+				AAD7A9551912B26B00A38B39 /* regex_on.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAD88A41910D1790034E8AB /* RegexSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAD88B81910D1790034E8AB /* Build configuration list for PBXNativeTarget "RegexSwitch" */;
+			buildPhases = (
+				AAAD88A11910D1790034E8AB /* Sources */,
+				AAAD88A21910D1790034E8AB /* Frameworks */,
+				AAAD88A31910D1790034E8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegexSwitch;
+			productName = RegexSwitch;
+			productReference = AAAD88A51910D1790034E8AB /* RegexSwitch.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAD889D1910D1790034E8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RGS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hetima;
+			};
+			buildConfigurationList = AAAD88A01910D1790034E8AB /* Build configuration list for PBXProject "RegexSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAAD889C1910D1790034E8AB;
+			productRefGroup = AAAD88A61910D1790034E8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAD88A41910D1790034E8AB /* RegexSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAD88A31910D1790034E8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAD88B11910D1790034E8AB /* InfoPlist.strings in Resources */,
+				AAD7A9571912B26B00A38B39 /* regex_on.png in Resources */,
+				AAD7A9561912B26B00A38B39 /* regex_off.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAD88A11910D1790034E8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E1A401912999E00152D39 /* RGSRegexModeButton.m in Sources */,
+				AAE42FCC1912BE48006CF80F /* RGSFindNavigatorAgent.m in Sources */,
+				AA39CBDB191158CD00809E90 /* RGSFindBarAgent.m in Sources */,
+				AAAD88B41910D1790034E8AB /* RGSRegexSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAAD88AF1910D1790034E8AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAD88B01910D1790034E8AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAAD88B61910D1790034E8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAAD88B71910D1790034E8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAAD88B91910D1790034E8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegexSwitch/RegexSwitch-Prefix.pch";
+				INFOPLIST_FILE = "RegexSwitch/RegexSwitch-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		AAAD88BA1910D1790034E8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegexSwitch/RegexSwitch-Prefix.pch";
+				INFOPLIST_FILE = "RegexSwitch/RegexSwitch-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAD88A01910D1790034E8AB /* Build configuration list for PBXProject "RegexSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAD88B61910D1790034E8AB /* Debug */,
+				AAAD88B71910D1790034E8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAD88B81910D1790034E8AB /* Build configuration list for PBXNativeTarget "RegexSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAD88B91910D1790034E8AB /* Debug */,
+				AAAD88BA1910D1790034E8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAD889D1910D1790034E8AB /* Project object */;
+}
