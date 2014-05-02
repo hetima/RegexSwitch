@@ -152,18 +152,18 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        KZRMETHOD_SWIZZLING_("IDEBatchFindNavigator", "_setSelectedNavigable:", KZRInstanceMethod, call, sel)
+        KZRMETHOD_SWIZZLING_WITHBLOCK("IDEBatchFindNavigator", "_setSelectedNavigable:", KZRInstanceMethod, call, sel,
         ^(id slf, id navigableItem){
             call.as_void(slf, sel, navigableItem);
             [RGSFindNavigatorAgent findNavigator:slf navigableItemSelected:navigableItem];
-        }_WITHBLOCK
+        });
 
-        KZRMETHOD_SWIZZLING_("IDEBatchFindNavigator", "viewDidInstall", KZRInstanceMethod, call, sel)
+        KZRMETHOD_SWIZZLING_WITHBLOCK("IDEBatchFindNavigator", "viewDidInstall", KZRInstanceMethod, call, sel,
         ^(id slf){
             call.as_void(slf, sel);
             [RGSFindNavigatorAgent installButtonToFindNavi:slf];
             
-        }_WITHBLOCK
+        });
         
     });
 }

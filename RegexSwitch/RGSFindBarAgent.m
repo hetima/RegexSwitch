@@ -138,18 +138,17 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
 
-    KZRMETHOD_SWIZZLING_("DVTFindBar", "_optionsChanged:", KZRInstanceMethod, call, sel)
+    KZRMETHOD_SWIZZLING_WITHBLOCK("DVTFindBar", "_optionsChanged:", KZRInstanceMethod, call, sel,
     ^(id slf, id notification){
         call.as_void(slf, sel, notification);
         [RGSFindBarAgent optionsChangedFindBar:slf];
-    }_WITHBLOCK
+    });
 
-    KZRMETHOD_SWIZZLING_("DVTFindBar", "viewDidInstall", KZRInstanceMethod, call, sel)
+    KZRMETHOD_SWIZZLING_WITHBLOCK("DVTFindBar", "viewDidInstall", KZRInstanceMethod, call, sel,
     ^(id slf){
         call.as_void(slf, sel);
         [RGSFindBarAgent installButtonToFindBar:slf];
-        
-    }_WITHBLOCK
+    });
 
 
     });
