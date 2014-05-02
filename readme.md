@@ -6,8 +6,8 @@ A small button is appeared aside search field. Clicking this button switches fin
 It indicates current state.
 
 
-- ![regex_on.png](RegexSwitch/Resources/regex_on.png =15x15) regex is on
-- ![regex_off.png](RegexSwitch/Resources/regex_off.png =15x15) regex is off
+- ![regex_on.png](https://raw.githubusercontent.com/hetima/RegexSwitch/master/RegexSwitch/Resources/regex_on.png =15x15) regex is on
+- ![regex_off.png](https://raw.githubusercontent.com/hetima/RegexSwitch/master/RegexSwitch/Resources/regex_off.png =15x15) regex is off
 
 ![screenshot.png](screenshot.png)
 
