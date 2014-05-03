@@ -35,7 +35,7 @@
 	<key>XC5Compatible</key>
 	<true/>
 	<key>XCGCReady</key>
-	<true/>
+	<false/>
 	<key>XCPluginHasUI</key>
 	<false/>
 </dict>
