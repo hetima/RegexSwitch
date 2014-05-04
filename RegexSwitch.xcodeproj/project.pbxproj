@@ -23,7 +23,6 @@
 		AA39CBDA191158CD00809E90 /* RGSFindBarAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSFindBarAgent.m; sourceTree = "<group>"; };
 		AA5E1A3E1912999E00152D39 /* RGSRegexModeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSRegexModeButton.h; sourceTree = "<group>"; };
 		AA5E1A3F1912999E00152D39 /* RGSRegexModeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSRegexModeButton.m; sourceTree = "<group>"; };
-		AA9D5C2C1912667B0030F957 /* KZRMethodSwizzlingWithBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZRMethodSwizzlingWithBlock.h; sourceTree = "<group>"; };
 		AAAD88A51910D1790034E8AB /* RegexSwitch.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegexSwitch.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAD88A81910D1790034E8AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AAAD88AA1910D1790034E8AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,7 +96,6 @@
 		AAAD88AD1910D1790034E8AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA9D5C2C1912667B0030F957 /* KZRMethodSwizzlingWithBlock.h */,
 				AAAD88AE1910D1790034E8AB /* RegexSwitch-Info.plist */,
 				AAAD88AF1910D1790034E8AB /* InfoPlist.strings */,
 				AAAD88B51910D1790034E8AB /* RegexSwitch-Prefix.pch */,

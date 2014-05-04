@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 hetima. All rights reserved.
 // 
 
-#import "KZRMethodSwizzlingWithBlock.h"
 #import "RGSRegexSwitch.h"
 #import "RGSFindBarAgent.h"
 #import "RGSFindNavigatorAgent.h"

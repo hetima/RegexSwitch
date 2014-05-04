@@ -7,7 +7,6 @@
 //
 
 #import "RGSFindBarAgent.h"
-#import "KZRMethodSwizzlingWithBlock.h"
 #import "RGSRegexModeButton.h"
 
 

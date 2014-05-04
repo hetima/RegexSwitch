@@ -7,7 +7,6 @@
 //
 
 #import "RGSFindNavigatorAgent.h"
-#import "KZRMethodSwizzlingWithBlock.h"
 #import "RGSRegexModeButton.h"
 
 @implementation RGSFindNavigatorAgent
