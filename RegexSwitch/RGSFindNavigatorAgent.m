@@ -127,7 +127,7 @@
     [superview addSubview:btn];
     newRect.size.height=RGSRegexModeButtonSize;
     newRect.size.width=RGSRegexModeButtonSize;
-    newRect.origin.y+=(CGFloat)1;
+    newRect.origin.y+=(CGFloat)3;
     [btn setFrame:newRect];
     
     [btn setAction:@selector(actRegexButtonClick:)];

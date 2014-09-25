@@ -20,6 +20,7 @@
     if (![findNaviClass instancesRespondToSelector:NSSelectorFromString(@"optionsCtrl")]) return NO;
     if (![findNaviClass instancesRespondToSelector:NSSelectorFromString(@"_findField")]) return NO;
     if (![findNaviClass instancesRespondToSelector:NSSelectorFromString(@"_replaceField")]) return NO;
+    if (![findNaviClass instancesRespondToSelector:NSSelectorFromString(@"delegate")]) return NO;
     
     return YES;
 }
@@ -70,6 +71,10 @@
 + (void)installButtonToFindBar:(id)findBar
 {
 
+    if (![[[findBar delegate]className]isEqualToString:@"IDEEditorContext"]) {
+        return;
+    }
+    
     if ([RGSFindBarAgent regexModeButtonForFindBar:findBar]) {
         return;
     }
@@ -99,7 +104,7 @@
     [superview addSubview:btn];
     newRect.size.height=RGSRegexModeButtonSize;
     newRect.size.width=RGSRegexModeButtonSize;
-    newRect.origin.y+=(CGFloat)2;
+    newRect.origin.y+=(CGFloat)3;
     [btn setFrame:newRect];
     
     NSView* replaceField=objc_msgSend(findBar, NSSelectorFromString(@"_replaceField"));
@@ -107,6 +112,15 @@
         frame=[replaceField frame];
         NSDivideRect(frame, &newRect, &remainRect, (CGFloat)18, NSMinXEdge);
         [replaceField setFrame:remainRect];
+    }
+    
+    //6.0
+    NSArray* constraints=[superview constraints];
+    for (NSLayoutConstraint* con in constraints) {
+        if (con.firstItem==findField && con.firstAttribute==NSLayoutAttributeLeading) {
+            con.constant=con.constant+(CGFloat)18;
+            break;
+        }
     }
     
     // set state

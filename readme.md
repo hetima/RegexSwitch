@@ -1,6 +1,6 @@
 # RegexSwitch
 
-RegexSwitch is plugin for Xcode 5.1 which helps switching find option between normal textual search and regular expression.
+RegexSwitch is plugin for Xcode 6.0 which helps switching find option between normal textual search and regular expression.
 
 A small button is appeared aside search field. Clicking this button switches find option quickly.  
 It indicates current state.
