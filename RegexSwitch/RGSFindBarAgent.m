@@ -71,7 +71,7 @@
 + (void)installButtonToFindBar:(id)findBar
 {
 
-    if (![[[findBar delegate]className]isEqualToString:@"IDEEditorContext"]) {
+    if (![[(NSObject*)[findBar delegate]className]isEqualToString:@"IDEEditorContext"]) {
         return;
     }
     
